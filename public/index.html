@@ -20,9 +20,29 @@
         r.appendChild(e);
     })(window, document, 'https://static.hj.contentsquare.net/c/csq-', '.js', 5359249);
   </script>
+
+  <script type="module" src="authentication.js" defer></script>
 </head>
 
 <body>
+  <div class="container mt-4 mb-4">
+    <button id="signInButton" class="btn btn-primary">
+      Create Account / Sign In
+    </button>
+    <button id="signOutButton" class="btn btn-secondary">
+      Sign Out
+    </button>
+  </div>
+  <div class="data-form">
+    <div class="form-row">
+      <span class="label">Name:</span>
+      <span class="value" id="name"></span>
+    </div>
+    <div class="form-row">
+      <span class="label">Email:</span>
+      <span class="value" id="email"></span>
+    </div>
+  <div>
   <div class="wrapper">
     <div class="swiper">
       <div class="swiper-wrapper">
